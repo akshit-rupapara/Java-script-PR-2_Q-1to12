@@ -1,0 +1,59 @@
+<script type="text/javascript">
+
+//9. Write a JavaScript program to find max of 4 number using nested if.
+
+    var a = parseInt(prompt("Enter value of A :- "));
+    var b = parseInt(prompt("Enter value of B :- "));
+    var c = parseInt(prompt("Enter value of C :- "));
+    var d = parseInt(prompt("Enter value of D :- "));
+
+    if(a > b){
+
+        if(a > c){
+
+            if(a > d){
+                document.write(`<h1>A is big</h1>`);
+            }
+            else{
+                document.write(`<h1>D is big</h1>`);
+            }
+
+        }
+        else{
+            
+            if(c > d){
+                document.write(`<h1>C is big</h1>`);
+            }
+            else{
+                document.write(`<h1>D is big</h1>`);
+            }
+
+        }
+
+    }
+    else{
+
+        if(b > c){
+             
+            if(b > d){
+                document.write(`<h1>B is big</h1>`);
+            }
+            else{
+                document.write(`<h1>D is big</h1>`);
+            }
+
+        }
+        else{
+            
+            if(c > d){
+                document.write(`<h1>C is big</h1>`);
+            }
+            else{
+                document.write(`<h1>D is big</h1>`);
+            }
+
+        }
+
+    }
+
+</script>
